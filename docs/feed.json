@@ -1,0 +1,22 @@
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "JavaScripts",
+    "home_page_url": "https://gavinw.me/javascripts/",
+    "feed_url": "https://gavinw.me/javascripts/feed.json",
+    "items": [
+        {
+            "id": "https://gavinw.me/javascripts/getstarted/resources.html",
+            "url": "https://gavinw.me/javascripts/getstarted/resources.html",
+            "title": "Resources",
+            "date_published": "2023-02-19T00:00:00Z",
+            "content_html": "<p>Here are some helpful resources for learning JavaScript:</p><p><a href=\"https://gavinw.me/javascripts/getstarted/resources.html\">Continue reading...</a></p>"
+        },
+        {
+            "id": "https://gavinw.me/javascripts/javascript/strings.html",
+            "url": "https://gavinw.me/javascripts/javascript/strings.html",
+            "title": "Strings",
+            "date_published": "2023-02-19T00:00:00Z",
+            "content_html": "<p>Here</p><p><a href=\"https://gavinw.me/javascripts/javascript/strings.html\">Continue reading...</a></p>"
+        }
+    ]
+}
