@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FizzBuzz Example</title>
+</head>
+<body>
+
+    <label>
+        Number of iterations:
+        <input id="numIterations" type="number" value="5">
+    </label>
+
+    <table id="mytable"></table>
+
+    <script>
+        window.addEventListener('load', run);
+        document.addEventListener('input', run);
+
+        function run() {
+            const numIterations = document.getElementById('numIterations').value;
+            const tableElem = document.getElementById('mytable');
+            tableElem.innerHTML = '';
+
+            for (let i = 1; i < numIterations; i++) {
+                if (i % 15 == 0) {
+                    result = 'FizzBuzz';
+                }
+                else if (i % 5 == 0) {
+                    result = 'Buzz';
+                }
+                else if (i % 3 == 0) {
+                    result = 'Fizz';
+                }
+                else {
+                    result = i ;
+                }
+
+                const rowElem = document.createElement('tr');
+                rowElem.innerHTML = `<td>${i}&emsp;</td><td>${result}</td>`
+                tableElem.appendChild(rowElem);
+            }
+        }
+    </script>
+
+</body>
+</html>
