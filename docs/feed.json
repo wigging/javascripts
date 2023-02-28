@@ -5,6 +5,13 @@
     "feed_url": "https://gavinw.me/javascripts/feed.json",
     "items": [
         {
+            "id": "https://gavinw.me/javascripts/javascript/modules.html",
+            "url": "https://gavinw.me/javascripts/javascript/modules.html",
+            "title": "Modules",
+            "date_published": "2023-02-27T00:00:00Z",
+            "content_html": "<p>A module is a single JavaScript file where its variables and functions can be accessed from other JavaScript files. A local web server must be used to test modules in the browser; otherwise, opening the web page locally will not work.</p><p><a href=\"https://gavinw.me/javascripts/javascript/modules.html\">Continue reading...</a></p>"
+        },
+        {
             "id": "https://gavinw.me/javascripts/getstarted/node.html",
             "url": "https://gavinw.me/javascripts/getstarted/node.html",
             "title": "Node",

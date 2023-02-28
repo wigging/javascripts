@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Highlightjs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+
+    <!-- JSON feed -->
+    <link href="https://gavinw.me/javascripts/feed.json" rel="alternate" type="application/feed+json" title="JavaScripts">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../styles.css">
+
+    <title>JavaScripts</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md">
+
+        <h1>Modules</h1>
+        <h6>February 27, 2023</h6>
+        <hr>
+
+        <p>A module is a single JavaScript file where its variables and functions can be accessed from other JavaScript files. A local web server must be used to test modules in the browser; otherwise, opening the web page locally will not work.</p>
+<p>The module shown below labels the <code>sayHello()</code> function with <code>export</code> so it can be accessed from other files.</p>
+<pre><code class="language-javascript">// sayhello.js
+
+export function sayHello(name) {
+    const s = `Hello there, ${name}`;
+    return s;
+}
+</code></pre>
+<p>Use <code>import</code> to access this function in another file as shown below.</p>
+<pre><code class="language-javascript">// main.js
+
+import { sayHello } from './sayhello.js'
+
+const nameElem = document.getElementById('name');
+const greetingElem =document.getElementById('greeting');
+
+function displayGreeting() {
+    const name = nameElem.value;
+    const greeting = sayHello(name);
+    greetingElem.innerHTML = greeting;
+}
+
+document.addEventListener('submit', displayGreeting);
+</code></pre>
+<p>In an HTML document, the <code>script</code> attribute must utilize <code>type="module"</code>, so the browser will treat the script as a module.</p>
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;title&gt;Example&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+    &lt;p&gt;This example must be run with a local web server.&lt;/p&gt;
+
+    &lt;form action=&quot;javascript:void(0);&quot;&gt;
+        &lt;label&gt;Enter name:
+            &lt;input id=&quot;name&quot; type=&quot;text&quot; value=&quot;Marge Simpson&quot;&gt;
+        &lt;/label&gt;
+        &lt;input type=&quot;submit&quot; value=&quot;Submit&quot;&gt;
+    &lt;/form&gt;
+
+    &lt;p id=&quot;greeting&quot;&gt;&lt;/p&gt;
+
+    &lt;script type=&quot;module&quot; src=&quot;main.js&quot;&gt;&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+        </div>
+    </div>
+    <div class="row my-5">
+    <div class="col">
+        <p class="text-center small my-5">
+            <a href="https://gavinw.me/javascripts/">JavaScripts</a> © 2023 <br>
+            Built by <a href="https://gavinw.me">Gavin Wiggins</a>
+        </p>
+    </div>
+    </div>
+</div>
+</body>
+</html>
