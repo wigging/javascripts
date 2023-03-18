@@ -5,6 +5,13 @@
     "feed_url": "https://gavinw.me/javascripts/feed.json",
     "items": [
         {
+            "id": "https://gavinw.me/javascripts/javascript/fizzbuzz.html",
+            "url": "https://gavinw.me/javascripts/javascript/fizzbuzz.html",
+            "title": "Fizz buzz",
+            "date_published": "2023-03-18T00:00:00Z",
+            "content_html": "<p>This is a typical fizz buzz example written in JavaScript that runs in a web page. The input defines the number of iterations. A number divisible by 3 displays the word \"Fizz\", a number divisible by 5 displays \"Buzz\", and a number divisible by both 3 and 5 displays \"Fizz Buzz\".</p><p><a href=\"https://gavinw.me/javascripts/javascript/fizzbuzz.html\">Continue reading...</a></p>"
+        },
+        {
             "id": "https://gavinw.me/javascripts/getstarted/resources.html",
             "url": "https://gavinw.me/javascripts/getstarted/resources.html",
             "title": "Resources",

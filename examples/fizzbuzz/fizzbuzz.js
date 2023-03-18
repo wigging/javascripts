@@ -2,9 +2,9 @@
 
 const numIterations = 40;
 
-for (let i = 1; i < numIterations; i++) {
+for (let i = 1; i <= numIterations; i++) {
   if (i % 15 == 0) {
-    result = 'FizzBuzz';
+    result = 'Fizz Buzz';
   } else if (i % 5 == 0) {
     result = 'Buzz';
   } else if (i % 3 == 0) {
