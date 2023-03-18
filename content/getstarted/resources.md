@@ -1,9 +1,9 @@
 ---
 title: Resources
-date: February 19, 2023
+date: March 17, 2023
 ---
 
 Here are some helpful resources for learning JavaScript:
 
-- here
-- here
+- [Eloquent JavaScript](https://eloquentjavascript.net)
+- [The Modern JavaScript Tutorial](https://javascript.info)
