@@ -5,6 +5,13 @@
     "feed_url": "https://gavinw.me/javascripts/feed.json",
     "items": [
         {
+            "id": "https://gavinw.me/javascripts/javascript/select-units.html",
+            "url": "https://gavinw.me/javascripts/javascript/select-units.html",
+            "title": "Select units",
+            "date_published": "2023-03-17T00:00:00Z",
+            "content_html": "<p>In this example, the select element is used to change the units associated with the input parameter. As shown in the image below, the diameter is entered as 4.5 inches and is automatically converted to meters as shown in the Results section. The same conversion to meters is done for the height parameter. Finally, the parameters (in units of meters) are used to calculate the cylinder volume in cubic meters (m<sup>3</sup>).</p><p><a href=\"https://gavinw.me/javascripts/javascript/select-units.html\">Continue reading...</a></p>"
+        },
+        {
             "id": "https://gavinw.me/javascripts/javascript/modules.html",
             "url": "https://gavinw.me/javascripts/javascript/modules.html",
             "title": "Modules",
