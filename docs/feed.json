@@ -5,6 +5,13 @@
     "feed_url": "https://gavinw.me/javascripts/feed.json",
     "items": [
         {
+            "id": "https://gavinw.me/javascripts/javascript/strings.html",
+            "url": "https://gavinw.me/javascripts/javascript/strings.html",
+            "title": "Strings",
+            "date_published": "2023-03-19T00:00:00Z",
+            "content_html": "<p>A string in JavaScript is represented by single or double quotes.</p><p><a href=\"https://gavinw.me/javascripts/javascript/strings.html\">Continue reading...</a></p>"
+        },
+        {
             "id": "https://gavinw.me/javascripts/javascript/plotly-graph.html",
             "url": "https://gavinw.me/javascripts/javascript/plotly-graph.html",
             "title": "Plotly graph",
@@ -52,13 +59,6 @@
             "title": "Node",
             "date_published": "2023-02-20T00:00:00Z",
             "content_html": "<p>Node.js is a JavaScript run-time environment for developing command line tools and server-side applications outside the browser. See <a href=\"https://nodejs.dev\">https://nodejs.dev</a> or <a href=\"https://nodejs.org\">https://nodejs.org</a> for more information. The recommended way to install Node.js is with the Node Version Manager (nvm). See the installation steps at <a href=\"https://github.com/nvm-sh/nvm\">https://github.com/nvm-sh/nvm</a>.</p><p><a href=\"https://gavinw.me/javascripts/getstarted/node.html\">Continue reading...</a></p>"
-        },
-        {
-            "id": "https://gavinw.me/javascripts/javascript/strings.html",
-            "url": "https://gavinw.me/javascripts/javascript/strings.html",
-            "title": "Strings",
-            "date_published": "2023-02-19T00:00:00Z",
-            "content_html": "<p>Here</p><p><a href=\"https://gavinw.me/javascripts/javascript/strings.html\">Continue reading...</a></p>"
         }
     ]
 }

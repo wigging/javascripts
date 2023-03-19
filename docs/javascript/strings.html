@@ -26,10 +26,21 @@
         <div class="col-md">
 
         <h1>Strings</h1>
-        <h6>February 19, 2023</h6>
+        <h6>March 19, 2023</h6>
         <hr>
 
-        <p>Here</p>
+        <p>A string in JavaScript is represented by single or double quotes.</p>
+<pre><code class="language-javascript">const car = 'Ford Ranger';
+const name = &quot;Homer Simpson&quot;;
+</code></pre>
+<p>Backtick quotes can embed variables and expressions into the string. In the example below, the <code>name</code> variable is embedded into the <code>sayit</code> string.</p>
+<pre><code class="language-javascript">const name = &quot;John Rambo&quot;;
+const sayit = `Happy birthday ${name}`;
+console.log(sayit);
+
+// This prints the following to the console:
+// Happy birthday John Rambo
+</code></pre>
 
         </div>
     </div>
