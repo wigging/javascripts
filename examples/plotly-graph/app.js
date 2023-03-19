@@ -1,13 +1,13 @@
 // First graph
 
-const data = [{
+const data1 = [{
     x: [3, 5, 6, 7, 10, 12.5],
     y: [1, 3, 2, 4.5, 9, 8.1],
     type: 'line'
 }];
 
 const layout = {
-    title: 'Example data',
+    title: 'First Graph',
     xaxis: {
         title: 'X points',
         gridcolor: 'rgb(189, 189, 189)',
@@ -21,7 +21,7 @@ const layout = {
     plot_bgcolor: 'rgba(0,0,0,0)'
 };
 
-Plotly.newPlot("mygraph", data, layout)
+Plotly.newPlot("graph1", data1, layout)
 
 // Second graph
 
@@ -32,7 +32,7 @@ const data2 = [{
 }];
 
 const layout2 = {
-    title: 'Sales Growth',
+    title: 'Second Graph',
     xaxis: {
         title: 'Year',
         showgrid: false,
@@ -44,4 +44,4 @@ const layout2 = {
     }
 };
 
-Plotly.newPlot("thegraph", data2, layout2);
+Plotly.newPlot("graph2", data2, layout2);

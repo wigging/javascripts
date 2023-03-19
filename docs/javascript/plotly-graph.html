@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Highlightjs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+
+    <!-- JSON feed -->
+    <link href="https://gavinw.me/javascripts/feed.json" rel="alternate" type="application/feed+json" title="JavaScripts">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../styles.css">
+
+    <title>JavaScripts</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md">
+
+        <h1>Plotly graph</h1>
+        <h6>March 19, 2023</h6>
+        <hr>
+
+        <p><a href="https://plotly.com">Plotly</a> is an open-source graphing library for JavaScript and other programming languages. Two basic examples are given below. The first graph uses a custom background color to match the web page. The second graph turns off some of the grid lines and uses the default background color.</p>
+<p><img src="../images/graph1.png" style="max-width:400px;" alt="input number"></p>
+<p><img src="../images/graph2.png" style="max-width:400px;" alt="input number"></p>
+<pre><code class="language-html">&lt;!-- index.html --&gt;
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;script src=&quot;https://cdn.plot.ly/plotly-latest.min.js&quot;&gt;&lt;/script&gt;
+    &lt;title&gt;Example&lt;/title&gt;
+    &lt;style&gt;
+        body {
+            background-color: lightgrey;
+            margin: 40px auto;
+            max-width: 800px;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;h1&gt;Plotly examples&lt;/h1&gt;
+
+&lt;div id=&quot;graph1&quot; style=&quot;width:600px;&quot;&gt;&lt;/div&gt;
+
+&lt;div id=&quot;graph2&quot; style=&quot;width:600px;&quot;&gt;&lt;/div&gt;
+
+&lt;script src=&quot;app.js&quot;&gt;&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<pre><code class="language-javascript">// app.js
+
+// First graph
+
+const data1 = [{
+    x: [3, 5, 6, 7, 10, 12.5],
+    y: [1, 3, 2, 4.5, 9, 8.1],
+    type: 'line'
+}];
+
+const layout = {
+    title: 'First Graph',
+    xaxis: {
+        title: 'X points',
+        gridcolor: 'rgb(189, 189, 189)',
+    },
+    yaxis: {
+        title: 'Y points',
+        gridcolor: 'rgb(189, 189, 189)',
+        zeroline: false
+    },
+    paper_bgcolor: 'rgba(0,0,0,0)',
+    plot_bgcolor: 'rgba(0,0,0,0)'
+};
+
+Plotly.newPlot(&quot;graph1&quot;, data1, layout)
+
+// Second graph
+
+const data2 = [{
+    x: [1999, 2000, 2001, 2002],
+    y: [10, 15, 13, 17],
+    type: 'scatter'
+}];
+
+const layout2 = {
+    title: 'Second Graph',
+    xaxis: {
+        title: 'Year',
+        showgrid: false,
+        zeroline: false
+    },
+    yaxis: {
+        title: 'Percent',
+        showline: false
+    }
+};
+
+Plotly.newPlot(&quot;graph2&quot;, data2, layout2);
+</code></pre>
+
+        </div>
+    </div>
+    <div class="row my-5">
+    <div class="col">
+        <p class="text-center small my-5">
+            <a href="https://gavinw.me/javascripts/">JavaScripts</a> © 2023 <br>
+            Built by <a href="https://gavinw.me">Gavin Wiggins</a>
+        </p>
+    </div>
+    </div>
+</div>
+</body>
+</html>

@@ -5,6 +5,13 @@
     "feed_url": "https://gavinw.me/javascripts/feed.json",
     "items": [
         {
+            "id": "https://gavinw.me/javascripts/javascript/plotly-graph.html",
+            "url": "https://gavinw.me/javascripts/javascript/plotly-graph.html",
+            "title": "Plotly graph",
+            "date_published": "2023-03-19T00:00:00Z",
+            "content_html": "<p><a href=\"https://plotly.com\">Plotly</a> is an open-source graphing library for JavaScript and other programming languages. Two basic examples are given below. The first graph uses a custom background color to match the web page. The second graph turns off some of the grid lines and uses the default background color.</p><p><a href=\"https://gavinw.me/javascripts/javascript/plotly-graph.html\">Continue reading...</a></p>"
+        },
+        {
             "id": "https://gavinw.me/javascripts/javascript/input-number.html",
             "url": "https://gavinw.me/javascripts/javascript/input-number.html",
             "title": "Input number",
