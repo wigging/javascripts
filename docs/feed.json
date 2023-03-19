@@ -5,6 +5,13 @@
     "feed_url": "https://gavinw.me/javascripts/feed.json",
     "items": [
         {
+            "id": "https://gavinw.me/javascripts/javascript/input-number.html",
+            "url": "https://gavinw.me/javascripts/javascript/input-number.html",
+            "title": "Input number",
+            "date_published": "2023-03-18T00:00:00Z",
+            "content_html": "<p>The example below demonstrates how to calculate the area from width and length inputs. Notice the type of each input is defined as number. Click the button to calculate the area or use an event listener to automatically run the area function.</p><p><a href=\"https://gavinw.me/javascripts/javascript/input-number.html\">Continue reading...</a></p>"
+        },
+        {
             "id": "https://gavinw.me/javascripts/javascript/fizzbuzz.html",
             "url": "https://gavinw.me/javascripts/javascript/fizzbuzz.html",
             "title": "Fizz buzz",
