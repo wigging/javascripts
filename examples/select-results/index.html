@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Example</title>
+    <style>
+        body {
+            background-color: lightgrey;
+            margin: 40px auto;
+            max-width: 800px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Parameters</h2>
+
+    <p>
+        <label for="width">Enter width:</label>
+        <input id="width" name="width" type="number" min="0" value="4.5">
+    </p>
+
+    <p>
+        <label for="height">Enter height:</label>
+        <input id="height" name="height" type="number" min="0" value="10.2">
+    </p>
+
+    <hr>
+
+    <h2>Results</h2>
+
+    <p>Select:
+    <select id="selectResults">
+        <option value="area">Area</option>
+        <option value="perimeter" selected>Perimeter</option>
+    </select>
+    </p>
+
+    <div id="results"></div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>

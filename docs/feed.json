@@ -5,6 +5,13 @@
     "feed_url": "https://gavinw.me/javascripts/feed.json",
     "items": [
         {
+            "id": "https://gavinw.me/javascripts/javascript/select-results.html",
+            "url": "https://gavinw.me/javascripts/javascript/select-results.html",
+            "title": "Select results",
+            "date_published": "2023-03-23T00:00:00Z",
+            "content_html": "<p>In this example, number inputs are used as width and height parameters. These parameters are used to calculate area and perimeter results. The result views are in separate HTML files that are fetched with JavaScript.</p><p><a href=\"https://gavinw.me/javascripts/javascript/select-results.html\">Continue reading...</a></p>"
+        },
+        {
             "id": "https://gavinw.me/javascripts/javascript/strings.html",
             "url": "https://gavinw.me/javascripts/javascript/strings.html",
             "title": "Strings",
