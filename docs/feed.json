@@ -5,6 +5,13 @@
     "feed_url": "https://gavinw.me/javascripts/feed.json",
     "items": [
         {
+            "id": "https://gavinw.me/javascripts/javascript/scroll-columns.html",
+            "url": "https://gavinw.me/javascripts/javascript/scroll-columns.html",
+            "title": "Scroll columns",
+            "date_published": "2023-03-24T00:00:00Z",
+            "content_html": "<p>Set the max height and overflow styles of <a href=\"https://getbootstrap.com\">Bootstrap</a> columns to independently scroll the columns. This isn't JavaScript, but it's related to website layout so it might be useful for designing web applications.</p><p><a href=\"https://gavinw.me/javascripts/javascript/scroll-columns.html\">Continue reading...</a></p>"
+        },
+        {
             "id": "https://gavinw.me/javascripts/javascript/select-results.html",
             "url": "https://gavinw.me/javascripts/javascript/select-results.html",
             "title": "Select results",
