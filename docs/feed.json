@@ -5,6 +5,13 @@
     "feed_url": "https://gavinw.me/javascripts/feed.json",
     "items": [
         {
+            "id": "https://gavinw.me/javascripts/javascript/load-html.html",
+            "url": "https://gavinw.me/javascripts/javascript/load-html.html",
+            "title": "Load content from HTML files",
+            "date_published": "2023-03-26T00:00:00Z",
+            "content_html": "<p>Content from HTML files can be loaded asynchronously using the <code>fetch()</code> method. In the example below, the content of the left and right columns are loaded from HTML files. The column layout is from the <a href=\"https://getbootstrap.com\">Bootstrap</a> CSS.</p><p><a href=\"https://gavinw.me/javascripts/javascript/load-html.html\">Continue reading...</a></p>"
+        },
+        {
             "id": "https://gavinw.me/javascripts/javascript/scroll-columns.html",
             "url": "https://gavinw.me/javascripts/javascript/scroll-columns.html",
             "title": "Scroll columns",
