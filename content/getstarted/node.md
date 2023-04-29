@@ -1,6 +1,6 @@
 ---
 title: Node
-date: February 20, 2023
+date: April 28, 2023
 ---
 
 Node.js is a JavaScript run-time environment for developing command line tools and server-side applications outside the browser. See <https://nodejs.dev> or <https://nodejs.org> for more information. The recommended way to install Node.js is with the Node Version Manager (nvm). See the installation steps at <https://github.com/nvm-sh/nvm>.
@@ -25,4 +25,16 @@ node
 > console.log('hello there')
 hello there
 undefined
+```
+
+To upgrade to the latest stable (LTS) version of node use the following command:
+
+```
+nvm install "lts/*" --reinstall-packages-from="$(nvm current)"
+```
+
+To remove an older version use this command shown below where `[old version]` would be something like `v19.6.1`
+
+```
+nvm uninstall [old version]
 ```

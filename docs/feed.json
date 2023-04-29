@@ -1,85 +1,85 @@
 {
     "version": "https://jsonfeed.org/version/1.1",
     "title": "JavaScripts",
-    "home_page_url": "https://gavinw.me/javascripts/",
-    "feed_url": "https://gavinw.me/javascripts/feed.json",
+    "home_page_url": "https://wigging.me/javascripts/",
+    "feed_url": "https://wigging.me/javascripts/feed.json",
     "items": [
         {
-            "id": "https://gavinw.me/javascripts/javascript/load-html.html",
-            "url": "https://gavinw.me/javascripts/javascript/load-html.html",
+            "id": "https://wigging.me/javascripts/getstarted/node.html",
+            "url": "https://wigging.me/javascripts/getstarted/node.html",
+            "title": "Node",
+            "date_published": "2023-04-28T00:00:00Z",
+            "content_html": "<p>Node.js is a JavaScript run-time environment for developing command line tools and server-side applications outside the browser. See <a href=\"https://nodejs.dev\">https://nodejs.dev</a> or <a href=\"https://nodejs.org\">https://nodejs.org</a> for more information. The recommended way to install Node.js is with the Node Version Manager (nvm). See the installation steps at <a href=\"https://github.com/nvm-sh/nvm\">https://github.com/nvm-sh/nvm</a>.</p><p><a href=\"https://wigging.me/javascripts/getstarted/node.html\">Continue reading...</a></p>"
+        },
+        {
+            "id": "https://wigging.me/javascripts/javascript/load-html.html",
+            "url": "https://wigging.me/javascripts/javascript/load-html.html",
             "title": "Load content from HTML files",
             "date_published": "2023-03-26T00:00:00Z",
-            "content_html": "<p>Content from HTML files can be loaded asynchronously using the <code>fetch()</code> method. In the example below, the content of the left and right columns are loaded from HTML files. The column layout is from the <a href=\"https://getbootstrap.com\">Bootstrap</a> CSS.</p><p><a href=\"https://gavinw.me/javascripts/javascript/load-html.html\">Continue reading...</a></p>"
+            "content_html": "<p>Content from HTML files can be loaded asynchronously using the <code>fetch()</code> method. In the example below, the content of the left and right columns are loaded from HTML files. The column layout is from the <a href=\"https://getbootstrap.com\">Bootstrap</a> CSS.</p><p><a href=\"https://wigging.me/javascripts/javascript/load-html.html\">Continue reading...</a></p>"
         },
         {
-            "id": "https://gavinw.me/javascripts/javascript/scroll-columns.html",
-            "url": "https://gavinw.me/javascripts/javascript/scroll-columns.html",
+            "id": "https://wigging.me/javascripts/javascript/scroll-columns.html",
+            "url": "https://wigging.me/javascripts/javascript/scroll-columns.html",
             "title": "Scroll columns",
             "date_published": "2023-03-24T00:00:00Z",
-            "content_html": "<p>Set the max height and overflow styles of <a href=\"https://getbootstrap.com\">Bootstrap</a> columns to independently scroll the columns. This isn't JavaScript, but it's related to website layout so it might be useful for designing web applications.</p><p><a href=\"https://gavinw.me/javascripts/javascript/scroll-columns.html\">Continue reading...</a></p>"
+            "content_html": "<p>Set the max height and overflow styles of <a href=\"https://getbootstrap.com\">Bootstrap</a> columns to independently scroll the columns. This isn't JavaScript, but it's related to website layout so it might be useful for designing web applications.</p><p><a href=\"https://wigging.me/javascripts/javascript/scroll-columns.html\">Continue reading...</a></p>"
         },
         {
-            "id": "https://gavinw.me/javascripts/javascript/select-results.html",
-            "url": "https://gavinw.me/javascripts/javascript/select-results.html",
+            "id": "https://wigging.me/javascripts/javascript/select-results.html",
+            "url": "https://wigging.me/javascripts/javascript/select-results.html",
             "title": "Select results",
             "date_published": "2023-03-23T00:00:00Z",
-            "content_html": "<p>In this example, number inputs are used as width and height parameters. These parameters are used to calculate area and perimeter results. The result views are in separate HTML files that are fetched with JavaScript.</p><p><a href=\"https://gavinw.me/javascripts/javascript/select-results.html\">Continue reading...</a></p>"
+            "content_html": "<p>In this example, number inputs are used as width and height parameters. These parameters are used to calculate area and perimeter results. The result views are in separate HTML files that are fetched with JavaScript.</p><p><a href=\"https://wigging.me/javascripts/javascript/select-results.html\">Continue reading...</a></p>"
         },
         {
-            "id": "https://gavinw.me/javascripts/javascript/strings.html",
-            "url": "https://gavinw.me/javascripts/javascript/strings.html",
+            "id": "https://wigging.me/javascripts/javascript/strings.html",
+            "url": "https://wigging.me/javascripts/javascript/strings.html",
             "title": "Strings",
             "date_published": "2023-03-19T00:00:00Z",
-            "content_html": "<p>A string in JavaScript is represented by single or double quotes.</p><p><a href=\"https://gavinw.me/javascripts/javascript/strings.html\">Continue reading...</a></p>"
+            "content_html": "<p>A string in JavaScript is represented by single or double quotes.</p><p><a href=\"https://wigging.me/javascripts/javascript/strings.html\">Continue reading...</a></p>"
         },
         {
-            "id": "https://gavinw.me/javascripts/javascript/plotly-graph.html",
-            "url": "https://gavinw.me/javascripts/javascript/plotly-graph.html",
+            "id": "https://wigging.me/javascripts/javascript/plotly-graph.html",
+            "url": "https://wigging.me/javascripts/javascript/plotly-graph.html",
             "title": "Plotly graph",
             "date_published": "2023-03-19T00:00:00Z",
-            "content_html": "<p><a href=\"https://plotly.com\">Plotly</a> is an open-source graphing library for JavaScript and other programming languages. Two basic examples are given below. The first graph uses a custom background color to match the web page. The second graph turns off some of the grid lines and uses the default background color.</p><p><a href=\"https://gavinw.me/javascripts/javascript/plotly-graph.html\">Continue reading...</a></p>"
+            "content_html": "<p><a href=\"https://plotly.com\">Plotly</a> is an open-source graphing library for JavaScript and other programming languages. Two basic examples are given below. The first graph uses a custom background color to match the web page. The second graph turns off some of the grid lines and uses the default background color.</p><p><a href=\"https://wigging.me/javascripts/javascript/plotly-graph.html\">Continue reading...</a></p>"
         },
         {
-            "id": "https://gavinw.me/javascripts/javascript/input-number.html",
-            "url": "https://gavinw.me/javascripts/javascript/input-number.html",
+            "id": "https://wigging.me/javascripts/javascript/input-number.html",
+            "url": "https://wigging.me/javascripts/javascript/input-number.html",
             "title": "Input number",
             "date_published": "2023-03-18T00:00:00Z",
-            "content_html": "<p>The example below demonstrates how to calculate the area from width and length inputs. Notice the type of each input is defined as number. Click the button to calculate the area or use an event listener to automatically run the area function.</p><p><a href=\"https://gavinw.me/javascripts/javascript/input-number.html\">Continue reading...</a></p>"
+            "content_html": "<p>The example below demonstrates how to calculate the area from width and length inputs. Notice the type of each input is defined as number. Click the button to calculate the area or use an event listener to automatically run the area function.</p><p><a href=\"https://wigging.me/javascripts/javascript/input-number.html\">Continue reading...</a></p>"
         },
         {
-            "id": "https://gavinw.me/javascripts/javascript/fizzbuzz.html",
-            "url": "https://gavinw.me/javascripts/javascript/fizzbuzz.html",
+            "id": "https://wigging.me/javascripts/javascript/fizzbuzz.html",
+            "url": "https://wigging.me/javascripts/javascript/fizzbuzz.html",
             "title": "Fizz buzz",
             "date_published": "2023-03-18T00:00:00Z",
-            "content_html": "<p>This is a typical fizz buzz example written in JavaScript that runs in a web page. The input defines the number of iterations. A number divisible by 3 displays the word \"Fizz\", a number divisible by 5 displays \"Buzz\", and a number divisible by both 3 and 5 displays \"Fizz Buzz\".</p><p><a href=\"https://gavinw.me/javascripts/javascript/fizzbuzz.html\">Continue reading...</a></p>"
+            "content_html": "<p>This is a typical fizz buzz example written in JavaScript that runs in a web page. The input defines the number of iterations. A number divisible by 3 displays the word \"Fizz\", a number divisible by 5 displays \"Buzz\", and a number divisible by both 3 and 5 displays \"Fizz Buzz\".</p><p><a href=\"https://wigging.me/javascripts/javascript/fizzbuzz.html\">Continue reading...</a></p>"
         },
         {
-            "id": "https://gavinw.me/javascripts/getstarted/resources.html",
-            "url": "https://gavinw.me/javascripts/getstarted/resources.html",
+            "id": "https://wigging.me/javascripts/getstarted/resources.html",
+            "url": "https://wigging.me/javascripts/getstarted/resources.html",
             "title": "Resources",
             "date_published": "2023-03-17T00:00:00Z",
-            "content_html": "<p>Here are some helpful resources for learning JavaScript:</p><p><a href=\"https://gavinw.me/javascripts/getstarted/resources.html\">Continue reading...</a></p>"
+            "content_html": "<p>Here are some helpful resources for learning JavaScript:</p><p><a href=\"https://wigging.me/javascripts/getstarted/resources.html\">Continue reading...</a></p>"
         },
         {
-            "id": "https://gavinw.me/javascripts/javascript/select-units.html",
-            "url": "https://gavinw.me/javascripts/javascript/select-units.html",
+            "id": "https://wigging.me/javascripts/javascript/select-units.html",
+            "url": "https://wigging.me/javascripts/javascript/select-units.html",
             "title": "Select units",
             "date_published": "2023-03-17T00:00:00Z",
-            "content_html": "<p>In this example, the select element is used to change the units associated with the input parameter. As shown in the image below, the diameter is entered as 4.5 inches and is automatically converted to meters as shown in the Results section. The same conversion to meters is done for the height parameter. Finally, the parameters (in units of meters) are used to calculate the cylinder volume in cubic meters (m<sup>3</sup>).</p><p><a href=\"https://gavinw.me/javascripts/javascript/select-units.html\">Continue reading...</a></p>"
+            "content_html": "<p>In this example, the select element is used to change the units associated with the input parameter. As shown in the image below, the diameter is entered as 4.5 inches and is automatically converted to meters as shown in the Results section. The same conversion to meters is done for the height parameter. Finally, the parameters (in units of meters) are used to calculate the cylinder volume in cubic meters (m<sup>3</sup>).</p><p><a href=\"https://wigging.me/javascripts/javascript/select-units.html\">Continue reading...</a></p>"
         },
         {
-            "id": "https://gavinw.me/javascripts/javascript/modules.html",
-            "url": "https://gavinw.me/javascripts/javascript/modules.html",
+            "id": "https://wigging.me/javascripts/javascript/modules.html",
+            "url": "https://wigging.me/javascripts/javascript/modules.html",
             "title": "Modules",
             "date_published": "2023-02-27T00:00:00Z",
-            "content_html": "<p>A module is a single JavaScript file where its variables and functions can be accessed from other JavaScript files. A local web server must be used to test modules in the browser; otherwise, opening the web page locally will not work.</p><p><a href=\"https://gavinw.me/javascripts/javascript/modules.html\">Continue reading...</a></p>"
-        },
-        {
-            "id": "https://gavinw.me/javascripts/getstarted/node.html",
-            "url": "https://gavinw.me/javascripts/getstarted/node.html",
-            "title": "Node",
-            "date_published": "2023-02-20T00:00:00Z",
-            "content_html": "<p>Node.js is a JavaScript run-time environment for developing command line tools and server-side applications outside the browser. See <a href=\"https://nodejs.dev\">https://nodejs.dev</a> or <a href=\"https://nodejs.org\">https://nodejs.org</a> for more information. The recommended way to install Node.js is with the Node Version Manager (nvm). See the installation steps at <a href=\"https://github.com/nvm-sh/nvm\">https://github.com/nvm-sh/nvm</a>.</p><p><a href=\"https://gavinw.me/javascripts/getstarted/node.html\">Continue reading...</a></p>"
+            "content_html": "<p>A module is a single JavaScript file where its variables and functions can be accessed from other JavaScript files. A local web server must be used to test modules in the browser; otherwise, opening the web page locally will not work.</p><p><a href=\"https://wigging.me/javascripts/javascript/modules.html\">Continue reading...</a></p>"
         }
     ]
 }
