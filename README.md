@@ -1,14 +1,14 @@
 # ☕️ JavaScripts
 
-JavaScript has taken over the web where many of the applications and server side programs are built with JavaScript. This repository and associated website provide concise examples of JavaScript programming. The website is available at https://wigging.me/javascripts.
+JavaScript has taken over the web where many of the applications and server side programs are built with JavaScript. This repository and associated website provide concise examples of JavaScript programming. The website is available at https://gavinw.me/javascripts.
 
 ## Examples
 
-Example code is located in the `examples` folder.
+Example code is located in the `examples` directory.
 
 ## Website
 
-The website is available at https://wigging.me/javascripts. It is generated with the [genja](https://github.com/wigging/genja) tool using the `content`, `docs`, `templates` folders and the `config.json` file. The website is hosted with GitHub Pages from the `docs` folder.
+The website is available at https://gavinw.me/javascripts. It is generated with the [genja tool](https://github.com/gavinw/genja). The website is hosted with GitHub Pages from the `docs` directory.
 
 ## Contributing
 
