@@ -1,14 +1,21 @@
 # ☕️ JavaScripts
 
-JavaScript has taken over the web where many of the applications and server side programs are built with JavaScript. This repository and associated website provide concise examples of JavaScript programming. The website is available at https://gavinw.me/javascripts.
+JavaScript has taken over the internet as the foundation of many web applications and server side programs. This repository and associated notes provide concise examples of the JavaScript programming language.
 
 ## Examples
 
-Example code is located in the `examples` directory.
+Example code is located in the `examples` directory. Notes for the examples are listed below:
 
-## Website
-
-The website is available at https://gavinw.me/javascripts. It is generated with the [genja tool](https://github.com/gavinw/genja). The website is hosted with GitHub Pages from the `docs` directory.
+- [Create a JavaScript Environment with Node](https://gavinw.me/notes/javascript/node.html)
+- [Fizz buzz in Javascript](https://gavinw.me/notes/javascript/fizzbuzz.html)
+- [Input Numbers with JavaScript](https://gavinw.me/notes/javascript/input-number.html)
+- [JavaScript Modules](https://gavinw.me/notes/javascript/modules.html)
+- [Plotly Graphs in JavaScript](https://gavinw.me/notes/javascript/plotly-graph.html)
+- [Scroll Columns with JavaScript](https://gavinw.me/notes/javascript/scroll-columns.html)
+- [Select Results with JavaScript](https://gavinw.me/notes/javascript/select-results.html)
+- [Select Units with JavaScript](https://gavinw.me/notes/javascript/select-units.html)
+- [Strings in JavaScript](https://gavinw.me/notes/javascript/strings.html)
+- [Use JavaScript to Load HTML Content](https://gavinw.me/notes/javascript/load-html.html)
 
 ## Contributing
 
