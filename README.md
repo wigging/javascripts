@@ -4,7 +4,7 @@ JavaScript has taken over the internet as the foundation of many web application
 
 ## Examples
 
-Example code is located in the `examples` directory. Notes for the examples are listed below:
+Example code is located in the `js-projects` directory. Notes for the examples are listed below:
 
 - [Create a JavaScript Environment with Node](https://gavinw.me/notes/javascript/node.html)
 - [Fizz buzz in Javascript](https://gavinw.me/notes/javascript/fizzbuzz.html)
